@@ -16,7 +16,7 @@ useEffect(()=>{
     return <div className={`nav ${visible && "navbar"}`}>
         <div className="nav_content">
             <img 
-            className="net_logo" src="https://cdn.arstechnica.net/wp-content/uploads/2018/08/Netflix_Logo_Digital_Video-800x450.jpg" 
+            className="net_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" 
             alt=""/>
             <img className="nav_avtar" src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"
             alt=""/>
