@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Banner from './Banner';
 import request from './Request';
 import requests from './Request';
+import Row from './Row';
 function Home(){
     return <div>
         {/*Navbar*/}
