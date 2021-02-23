@@ -24,7 +24,7 @@ function Banner(){
        return name;
 
    }
-    return (<header className="banner" style={{backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
+    return (<header className="banner" style={{backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
     backgroundSize: "cover",
     backgroundPosition: "center center"}}>
             <div className="banner_content">
@@ -33,7 +33,7 @@ function Banner(){
                      <button className="buttons">Play</button>
                      <button className="buttons">My List</button>
                  </div>
-                 <h2 className="movie_description">{shortlength(movie?.overview,160)}</h2>
+                 <h3 className="movie_description">{shortlength(movie?.overview,160)}</h3>
              </div>
              <div className="banner_bottom"></div> 
      </header>)
