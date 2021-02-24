@@ -1,10 +1,10 @@
 .login{
     position:relative;
     height:100%;
-    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-kids-halloween-movies-for-netflix-1604009108.jpg");
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/399d6794-b770-4b21-992d-a3326710a170/c6ca2fdd-48b6-48cc-aa3c-983d48687bd0/IN-en-20210215-popsignuptwoweeks-perspective_alpha_website_small.jpg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
 }
 .login_gradient{
     width:100%;
@@ -13,7 +13,8 @@
     background:rgba(0,0,0,0.4);
     background-image:linear-gradient(to top,
     rgb(0,0,0,0.8) 0,
-    rgba(0,0,0,0) 60%
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0)100%
     );
     
 }
@@ -23,7 +24,7 @@
 }
 .login_logo{
     position:fixed;
-    top:10px;
+    top:15px;
     left: 0;
     width: 100px;
     cursor:pointer;
@@ -41,5 +42,40 @@
     font-weight:500;
     color:white;
     background-color: #e50914;
+
+}
+.login_card{
+    position:absolute;
+    width:90%;
+    padding:20px;
+    top:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index:1;
+    color:white;
+}
+.login_card > h3{
+    font-size:1.3rem;
+    font-weight:300;
+    margin-bottom:20px ;
+}
+.login_title{
+    font-size:3.125rem;
+    margin-bottom:20px;
+}
+.login_subtitle{
+    font-size: 2rem;
+    font-weight: 350;
+    margin-bottom:30px;
+}
+.login_started{
+    padding:10px 20px; 
+     font-size: 1rem; 
+     color: white; 
+     background-color:#e50914;
+     border:none;
+     outline:none;
 
 }
