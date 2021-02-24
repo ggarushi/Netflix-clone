@@ -32,7 +32,7 @@
     object-fit: contain;
 }
 .login_button{
-    cursor:pointer;
+    
     border:none;
     position:fixed;
     padding:10px 20px;
@@ -42,6 +42,7 @@
     font-weight:500;
     color:white;
     background-color: #e50914;
+    cursor:pointer;
 
 }
 .login_card{
@@ -55,6 +56,7 @@
     flex-direction: column;
     z-index:1;
     color:white;
+   
 }
 .login_card > h3{
     font-size:1.3rem;
