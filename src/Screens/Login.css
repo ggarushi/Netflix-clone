@@ -73,9 +73,11 @@
 .login_started{
     padding:10px 20px; 
      font-size: 1rem; 
+     font-weight: 600;
      color: white; 
      background-color:#e50914;
      border:none;
      outline:none;
+     cursor:pointer;
 
 }
