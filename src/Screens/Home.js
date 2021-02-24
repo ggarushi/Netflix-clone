@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Banner from './Banner';
-import request from './Request';
-import requests from './Request';
-import Row from './Row';
+import Navbar from '../Navbar';
+import Banner from '../Banner';
+import requests from '../Request';
+import Row from '../Row';
 function Home(){
     return <div>
         {/*Navbar*/}
