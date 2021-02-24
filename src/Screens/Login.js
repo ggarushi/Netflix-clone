@@ -9,6 +9,16 @@ function Login(){
                     <button className="login_button">Sign In</button>
                 <div className="login_gradient"></div>
                 </div>
+                <div className="login_card">
+                    
+                    <h1 className="login_title">Unlimited movies, TV shows and more.</h1>
+                    <h2 className="subtitle">Watch anywhere. Cancel anytime.</h2>
+                    <h3>Ready to watch? Enter your 
+                        email to create or restart your membership.</h3>
+                    <button className="login_started">Get Started</button>
+                    
+                </div>
             </div>
 }
 export default Login;
+// "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-kids-halloween-movies-for-netflix-1604009108.jpg"
