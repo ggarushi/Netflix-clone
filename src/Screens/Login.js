@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import './Login.css';
 import Signup from './Signup';
+import {Link} from "react-router-dom";
 function Login(){
     const[signIn,setSignin]=useState(false);
     return <div className="login">
@@ -18,7 +19,7 @@ function Login(){
                             <h2 className="subtitle">Watch anywhere. Cancel anytime.</h2>
                             <h3>Ready to watch? Enter your 
                                 email to create or restart your membership.</h3>
-                            <button className="login_started">Get Started</button>
+                            <button className="login_started"><Link to="Home" style={{textDecoration:'none',color:'white'}}>Get Started</Link></button>
                             <button className="login_button"  onClick={()=>setSignin(true)}>Sign In</button>
                         </>
                     )}
