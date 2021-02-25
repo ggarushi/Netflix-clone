@@ -26,3 +26,19 @@
     border-radius:5px;
     width:90%;
 }
+.signup_button{
+    font-size:1rem;
+    color:white;
+    border-radius:5px;
+    background-color:#e50914;
+    font-weight:600;
+    border:none;
+    cursor:pointer;
+    margin-top:15px;
+    padding:10px 20px;
+    width:100%;
+}
+.signup_bottom{
+    margin-top: 30px;
+    text-align:left;
+}
