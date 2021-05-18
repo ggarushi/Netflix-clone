@@ -6,7 +6,7 @@ This project is a simplified front end clone of Netflix, build using React and R
 Live Site-[Netflix-clone](https://netflix-clone-application.herokuapp.com/)
 
 Video 
-<iframe width="320" height="315" src="https://www.youtube.com/embed/eX2WODoElqk"></iframe>
+(https://www.youtube.com/embed/eX2WODoElqk")
 
 ## FEATURES
 * Random movies in the banner appear when refreshed.
