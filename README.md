@@ -1,5 +1,5 @@
 ## NETFLIX CLONE
-<img src="https://drive.google.com/file/d/1L5_Yh8CAJZQzPc6wxf5rCIzZxEpCpPp3/view?usp=sharing" alt="demo image">
+<img src="https://ibb.co/3cB2tbm" alt="demo image">
 
 ## DEMO
 [Netflix-clone](https://netflix-clone-application.herokuapp.com/)
